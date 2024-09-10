@@ -1,0 +1,14 @@
+{
+  "imagesExtensions":
+          [
+            "jpeg",
+            "jpg",
+            "png"
+          ],
+  "userEmail": "example@email.com",
+  "spreadsheetTitle": "Spreadsheet Name",
+  "formTitle": "Form Name",
+  "questionScale": 10,
+  "imagesFolder": "images/",
+  "maximumVotes": 1000
+}
