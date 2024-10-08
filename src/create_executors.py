@@ -33,9 +33,6 @@ executors["spreadsheet"] = Spreadsheet()
 
 @singleton
 class Drive:
-    def __init__(self):
-        pass
-
     def upload_image(self, path):
         metadata = {'name': os.path.basename(path)}
         media = MediaFileUpload(path)
