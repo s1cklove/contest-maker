@@ -14,7 +14,7 @@ def fulfill_form():
             path = os.path.join(data['imagesFolder'], filename)
             images[author] = executors['drive'].upload_image(path)
 
-    with open("../assets/active.txt", "+") as f:
+    with open("assets/active.txt", "a") as f:
         f.write(str(images.keys().__sizeof__()))
 
     requests = []

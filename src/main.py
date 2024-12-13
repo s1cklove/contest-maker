@@ -4,7 +4,7 @@ from src.create_executors import executors
 fulfill_form()
 # connect_form_to_sheet()
 
-with open("../assets/active.txt", "w") as f:
+with open("assets/active.txt", "w") as f:
     f.write(executors['spreadsheet'].id)
 
 print(f"Form URL: {executors['form'].url}")
